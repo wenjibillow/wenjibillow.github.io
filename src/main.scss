@@ -1,0 +1,16 @@
+// Bootstrap body background
+$body-bg: #e8f7f0;
+
+// Bootstrap body foreground
+$body-color: seashell;
+
+// Bootstrap theme colors
+$theme-colors: (
+  'primary': #b4654a,
+  'secondary': #157a6e
+);
+
+// Sass imports (The variables need to be set prior to importing)
+@import '~bootstrap';
+@import '~bootstrap-vue';
+
