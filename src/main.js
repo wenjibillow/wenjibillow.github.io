@@ -5,6 +5,8 @@ import router from './router'
 import store from './store'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import './main.scss'
+import VueOffline from 'vue-offline'
+
 
 //only relevant for a css setup
 // import 'bootstrap/dist/css/bootstrap.css'
@@ -12,6 +14,7 @@ import './main.scss'
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
+Vue.use(VueOffline)
 
 Vue.config.productionTip = false
 

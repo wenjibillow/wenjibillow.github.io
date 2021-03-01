@@ -2,8 +2,10 @@
   <div class="comments">
     <div class="container">
       <AddSomeComments/>
+      <MyComponent/>
        <!-- <UpdateComment/> -->
-      <SomeComments/>      
+      <SomeComments/> 
+      <!-- <singleComment/>      -->
     </div>
   </div>
 </template>
@@ -12,14 +14,14 @@
 // @ is an alias to /src
 import SomeComments from '@/components/SomeComments.vue'
 import AddSomeComments from '@/components/AddSomeComments.vue'
-//import UpdateComment from '@/components/UpdateComment.vue'
+import MyComponent from '@/components/MyComponent.vue'
 
 export default {
   name: 'Comments',
   components: {
-      SomeComments,
-      AddSomeComments,
-      //UpdateComment
+    SomeComments,
+    AddSomeComments,
+    MyComponent    
   }
 }
 </script>

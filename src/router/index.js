@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -22,6 +23,11 @@ const routes = [
     path: '/comments',
     name: 'Comments',
     component:() => import ('../views/Comments.vue')
+  },
+  {
+    path: '/singleComment/:id',    
+    name: 'singleComment',
+    component:() => import ('../components/singleComment.vue')
   },
 ]
 
